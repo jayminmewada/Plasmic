@@ -1,0 +1,28 @@
+{
+  "name": "my-app",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint"
+  },
+  "dependencies": {
+    "@knight-lab/timelinejs": "^3.9.0",
+    "@plasmicapp/host": "^1.0.81",
+    "@plasmicapp/loader-nextjs": "^1.0.191",
+    "@plasmicapp/react-web": "^0.2.119",
+    "framer-motion": "^7.6.5",
+    "next": "13.0.2",
+    "react": "18.2.0",
+    "react-dom": "18.2.0"
+  },
+  "devDependencies": {
+    "@types/node": "18.11.9",
+    "@types/react": "18.0.25",
+    "@zeit/next-css": "^1.0.1",
+    "eslint": "8.27.0",
+    "eslint-config-next": "13.0.2"
+  }
+}
